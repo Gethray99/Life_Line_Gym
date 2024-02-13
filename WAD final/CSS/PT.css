@@ -1,0 +1,99 @@
+
+#portfolio .container .text-center h2 {
+  text-align: center;
+}
+#portfolio .container .text-center h3 {
+  text-align: center;
+}
+
+#portfolio * {
+	box-sizing: border-box;
+}
+
+#portfolio .column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+#portfolio .row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*personal trainers*/
+#PersonalTrainers .Trainers .text-center h2 {
+  text-align: center;
+}
+
+#PersonalTrainers * {
+	box-sizing:content-box;
+	width: auto;
+
+}
+
+#PersonalTrainers .trainer {
+	float: left;
+	padding:5;
+	width: inherit;
+	position: relative;
+}
+
+#PersonalTrainers .row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+#PersonalTrainers .overlay {
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+#PersonalTrainers .trainer:hover .overlay {
+  opacity: 1;
+}
+
+#PersonalTrainers .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
